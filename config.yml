@@ -17,15 +17,17 @@ languages:
       taxonomies:
         tags: tag
 theme:
-  - hyde
-  - netlify
-  - netlify-cms
-hyde:
-  sidebar:
-    sticky: true  # Content to the bottom of the sidebar
-  theme: ''       # red, orange, yellow, green, cyan, blue, magenta, brown or cecil
-  reverse: false  # Reverse layout
-  fonts: 'google' # google or local
+  - comingsoon
+comingsoon:
+  # customize subscribe form
+  subscribe:
+    placeholder: Enter Email...
+    button: Notify me!
+social:
+  twitter:
+    site: TwitterHandle
+  github:
+    username: Username
 
 pages:
   body:
@@ -55,3 +57,8 @@ assets:
         default: "(max-width: 608px) 768px, 1024px"
     webp:
       enabled: true
+  compile:
+  # customize colors
+  variables:
+    primary: '#69B7FF'
+    secondary: '#69C748'

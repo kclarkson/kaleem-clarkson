@@ -15,7 +15,8 @@
     "cecil/theme-hyde": "^2.5",
     "cecil/theme-garth": "^1.10",
     "cecil/theme-netlify": "^2.0",
-    "cecil/theme-netlifycms": "^2.0"
+    "cecil/theme-netlifycms": "^2.0",
+    "cecil/theme-comingsoon": "^1.5"
   },
   "scripts": {
     "post-create-project-cmd": "curl -LO https://cecil.app/cecil.phar"

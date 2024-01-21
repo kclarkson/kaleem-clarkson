@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7aa3926bdfd9eb01dfdf100892d4f24f",
+    "content-hash": "5ae3b1dd16754c580666767e933cc02b",
     "packages": [
+        {
+            "name": "cecil/theme-comingsoon",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cecilapp/theme-comingsoon.git",
+                "reference": "5674e85d78be28edbee2307072a22b0de3829a19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cecilapp/theme-comingsoon/zipball/5674e85d78be28edbee2307072a22b0de3829a19",
+                "reference": "5674e85d78be28edbee2307072a22b0de3829a19",
+                "shasum": ""
+            },
+            "require": {
+                "cecil/theme-installer": "^1.4"
+            },
+            "type": "cecil-theme",
+            "extra": {
+                "name": "comingsoon",
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Cecil theme: Coming Soon",
+            "keywords": [
+                "cecil",
+                "coming soon",
+                "theme"
+            ],
+            "support": {
+                "issues": "https://github.com/Cecilapp/theme-comingsoon/issues",
+                "source": "https://github.com/Cecilapp/theme-comingsoon/tree/1.5.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ArnaudLigny",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/cecil",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2023-12-10T00:07:13+00:00"
+        },
         {
             "name": "cecil/theme-garth",
             "version": "1.10.1",
